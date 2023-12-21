@@ -13,9 +13,7 @@
     height: 80px;
     width: 100%;
    background-color: white;
-   /* position: fixed; */
-     /* z-index: -8; */
-    border-bottom: 2px solid black;
+   border-bottom: 2px solid black;
 }
 .logo{
     position: absolute;
@@ -23,23 +21,19 @@
     width: 180px;
     top: 15px;
     left: 50px;
-    /* border: 2px solid black; */
 }
 .nmenu{
     display: flex;
-    /* border: 2px solid black; */
 }
 .nm10{
     position: absolute;
     top: 23px;
     left: 1400px;
-    /* z-index: -8; */
 }
 .nm9{
     position: absolute;
     top: 28px;
     left: 1325px;
-    /* z-index: -8; */
 }
 .nm8{
     position: absolute;
@@ -82,7 +76,6 @@
     left: 435px;
 }
 .nm1, .nm2, .nm3, .nm4, .nm5, .nm6, .nm7, .nm8{
-    /* font-weight: bold; */
     color: black;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
@@ -134,23 +127,11 @@
     margin-left: 30px;
     margin-top: 150px;
     transition: 1.7s;
-    /*border: 2px solid skyblue;
-    border-radius: 25px;
-    background-color: silver;*/
 }
 
 .dual:hover {
     transform: scale(1.07);
 }
-
-/*.dual h2 {
-    margin-top: 0px;
-    margin-left: 4px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    color: snow;
-
-}*/
 
 .dual h1 {
     margin-top: -55px;
@@ -161,31 +142,6 @@
     font-size: xx-large;
 }
 
-/*.snap {
-    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/product/1698401199544/zip/img/vivo-v29-snapdragon-778g-pc.png.webp);
-    height: 300px;
-    width: 350px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: -350px;
-    margin-left: 10px;
-    transition: 1.7s;
-    border: 2px solid skyblue;
-    border-radius: 25px;
-    background-color: silver;
-}
-
-.snap:hover{
-    transform: scale(1.07);
-}
-
-.snap h2 {
-    margin-top: 255px;
-    margin-left: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 23px;
-}*/
-
 .peak {
     background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/product/1698401199544/zip/img/vivo-v29-cooling-system-pc.png.webp);
     height: 600px;
@@ -195,27 +151,11 @@
     margin-top: -550px;
     margin-left: 850px;
     transition: 1.7s;
-    /* border: 2px solid skyblue;
-    border-radius: 25px;
-    background-color: silver; */
 }
 
 .peak:hover{
     transform: scale(1.07);
 }
-
-/*.peak h1 {
-    margin-top: 260px;
-    margin-left: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    font-size: xx-large;
-    color: snow;
-}
-
-.dsp {
-    margin-top: 0px;
-}*/
 
 .camera {
     background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/activity/1702897544170/zip/img/webp/section2b-pic2.jpg.webp);
@@ -226,8 +166,6 @@
     margin-top: -400px;
     margin-left: 720px;
     transition: 1.7s;
-    /* border: 2px solid black;
-    border-radius: 25px; */
 
 }
 
@@ -252,58 +190,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
 }
-
-/*.smile {
-    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/product/1698401199544/zip/img/vivo-v29-smile-capture-feature-pc.png.webp);
-    height: 500px;
-    width: 350px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: -470px;
-    margin-left: 1070px;
-    transition: 1.7s;
-    border: 2px solid black;
-    border-radius: 25px;
-    background-color: #1e4f9e;
-}
-
-.smile:hover{
-    transform: scale(1.07);
-}
-
-.smile h2 {
-    margin-top: 450px;
-    margin-left: 70px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
-    color: floralwhite;
-}
-
-.wed {
-    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/product/1698401199544/zip/img/vivo-v29-India-Exclusive-Wedding-Style-Portrait-pc.png);
-    height: 500px;
-    width: 350px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: -500px;
-    margin-left: 10px;
-    transition: 1.7s;
-    border: 2px solid black;
-    border-radius: 25px;
-    background-color: #1e4f9e;
-}
-
-.wed:hover{
-    transform: scale(1.07);
-}
-
-.wed h2 {
-    margin-top: 450px;
-    margin-left: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
-    color: floralwhite;
-}*/
 
 .battery {
     background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/activity/1702897544170/zip/img/webp/section2b-pic4.jpg.webp);
@@ -330,39 +216,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
 }
-
-/*.zeiss {
-    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/activity/1702897544170/zip/img/webp/section2b-pic1.jpg.webp);
-    height: 550px;
-    width: 550px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: 920px;
-    margin-top: -550px;
-    transition: 1.7s;
-}
-
-.zeiss:hover {
-    transform: scale(1.07);
-}
-
-/*.book{
-    background-repeat: no-repeat;
-    background-color: burlywood;
-    background-size: contain;
-    margin-left: 20px;
-    margin-top: -90px;
-    border-radius: 200px;
-}
-
-.book p{
-    
-}*/
-
-/* .sh {
-    background-color: black;
-    margin-top: -20px;
-} */
 
 .shop {
     background-image: url(https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1678701363767/496b1d43c24d2c9192a2ee7e8dd76899.jpg);
@@ -476,4 +329,124 @@
     font-weight: bolder;
     font-size: large;
 
+}
+
+.footer{
+    position: absolute;
+    left: 0px;
+    top: 2350px;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(40, 44, 49);
+    z-index: 8;
+    margin-top: 2350px;
+
+}
+.line1{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    color: whitesmoke;
+}
+.line1 p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.line1 li{
+    cursor: pointer;
+    transition: 0.2s;
+}
+.line1 a:hover{
+    color: #0926e0;
+}
+.line1 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.line2{
+    position: absolute;
+    top: 80px;
+    left: 320px;
+    color: whitesmoke;
+}
+.line2 p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.line2 li{
+    cursor: pointer;
+    transition: 0.2s;
+}
+.line2 a:hover{
+    color: #0926e0;
+}
+.line2 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.line3{
+    position: absolute;
+    top: 80px;
+    left: 580px;
+    color: whitesmoke;
+}
+.line3 p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.line3 li{
+    cursor: pointer;
+    transition: 0.2s;
+}
+.line3 a:hover{
+    color: #0926e0;
+}
+.line3 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.line4{
+    position: absolute;
+    top: 80px;
+    left: 800px;
+    color: whitesmoke;
+}
+.line4 p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.line4 li{
+    cursor: pointer;
+    transition: 0.2s;
+}
+.line4 a:hover{
+    color: #0926e0;
+}
+.line4 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.chat{
+    position: absolute;
+    top: 80px;
+    left: 1130px;
+    color: whitesmoke;
+    transition: 0.2s;
+}
+.chatop:hover{
+    color: #0926e0;
+}
+.call{
+    position: absolute;
+    top: 200px;
+    left: 1130px;
+    color: whitesmoke;
+    transition: 0.2s;
+}
+.call2{
+    position: absolute;
+    top: 300px;
+    left: 1130px;
+    color: whitesmoke;
+    transition: 0.2s;
 }
