@@ -1,0 +1,465 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.mdiv {
+    background-color: black;
+    position: relative;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+   background-color: white;
+   /* position: fixed; */
+     /* z-index: -8; */
+    border-bottom: 2px solid black;
+}
+.logo{
+    position: absolute;
+    height: 60px;
+    width: 180px;
+    top: 15px;
+    left: 50px;
+    /* border: 2px solid black; */
+}
+.nmenu{
+    display: flex;
+    /* border: 2px solid black; */
+}
+.nm10{
+    position: absolute;
+    top: 28px;
+    left: 1400px;
+    /* z-index: -8; */
+}
+.nm9{
+    position: absolute;
+    top: 28px;
+    left: 1325px;
+    /* z-index: -8; */
+}
+.nm8{
+    position: absolute;
+    top: 30px;
+    left: 1200px;
+}
+.nm7{
+    position: absolute;
+    top: 30px;
+    left: 1068px;
+}
+.nm6{
+    position: absolute;
+    top: 30px;
+    left: 925px;
+}
+.nm5{
+    position: absolute;
+    top: 30px;
+    left: 830px;
+}
+.nm4{
+    position: absolute;
+    top: 30px;
+    left: 710px;
+}
+.nm3{
+    position: absolute;
+    top: 30px;
+    left: 620px;
+}
+.nm2{
+    position: absolute;
+    top: 30px;
+    left: 515px;
+}
+.nm1{
+    position: absolute;
+    top: 30px;
+    left: 435px;
+}
+.nm1, .nm2, .nm3, .nm4, .nm5, .nm6, .nm7, .nm8{
+    /* font-weight: bold; */
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+.nm1:hover, .nm2:hover, .nm3:hover, .nm4:hover, .nm5:hover, .nm6:hover, .nm7:hover, .nm8:hover{
+    color: #0926e0;
+}
+
+.x100 {
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/activity/1702897544170/zip/img/webp/in-section1-kv.jpg.webp);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1100px;
+    background-size: cover;
+    margin-left: 220px;
+    margin-top: 120px;
+
+}
+
+.sun {
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/activity/1702897544170/zip/img/webp/in-section2-pic2.jpg.webp);
+    height: 500px;
+    width: 1100px;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 220px;
+    margin-top: 50px;
+    box-shadow: 20px 20px 20px orangered;
+    
+}
+
+.out {
+    background-color: #4470b8;
+}
+
+.scroll {
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.dual {
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/activity/1702897544170/zip/img/webp/section2b-pic3.jpg.webp);
+    height: 550px;
+    width: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-top: 150px;
+    transition: 1.7s;
+    /*border: 2px solid skyblue;
+    border-radius: 25px;
+    background-color: silver;*/
+}
+
+.dual:hover {
+    transform: scale(1.07);
+}
+
+/*.dual h2 {
+    margin-top: 0px;
+    margin-left: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: snow;
+
+}*/
+
+.dual h1 {
+    margin-top: -55px;
+    margin-left: 20px;
+    color: snow;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+/*.snap {
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/product/1698401199544/zip/img/vivo-v29-snapdragon-778g-pc.png.webp);
+    height: 300px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -350px;
+    margin-left: 10px;
+    transition: 1.7s;
+    border: 2px solid skyblue;
+    border-radius: 25px;
+    background-color: silver;
+}
+
+.snap:hover{
+    transform: scale(1.07);
+}
+
+.snap h2 {
+    margin-top: 255px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+}*/
+
+.peak {
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/product/1698401199544/zip/img/vivo-v29-cooling-system-pc.png.webp);
+    height: 600px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -550px;
+    margin-left: 850px;
+    transition: 1.7s;
+    /* border: 2px solid skyblue;
+    border-radius: 25px;
+    background-color: silver; */
+}
+
+.peak:hover{
+    transform: scale(1.07);
+}
+
+/*.peak h1 {
+    margin-top: 260px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: snow;
+}
+
+.dsp {
+    margin-top: 0px;
+}*/
+
+.camera {
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/activity/1702897544170/zip/img/webp/section2b-pic2.jpg.webp);
+    height: 450px;
+    width: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -400px;
+    margin-left: 720px;
+    transition: 1.7s;
+    /* border: 2px solid black;
+    border-radius: 25px; */
+
+}
+
+.camera:hover {
+    transform: scale(1.07);
+}
+
+.camera h1 {
+    margin-top: 40px;
+    margin-left: 2px;
+    color: snow;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+.csw h2 {
+    margin-top: -30px;
+    margin-left: 50px;
+    color: burlywood;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+/*.smile {
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/product/1698401199544/zip/img/vivo-v29-smile-capture-feature-pc.png.webp);
+    height: 500px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -470px;
+    margin-left: 1070px;
+    transition: 1.7s;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #1e4f9e;
+}
+
+.smile:hover{
+    transform: scale(1.07);
+}
+
+.smile h2 {
+    margin-top: 450px;
+    margin-left: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    color: floralwhite;
+}
+
+.wed {
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/product/1698401199544/zip/img/vivo-v29-India-Exclusive-Wedding-Style-Portrait-pc.png);
+    height: 500px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -500px;
+    margin-left: 10px;
+    transition: 1.7s;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #1e4f9e;
+}
+
+.wed:hover{
+    transform: scale(1.07);
+}
+
+.wed h2 {
+    margin-top: 450px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    color: floralwhite;
+}*/
+
+.battery {
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/activity/1702897544170/zip/img/webp/section2b-pic4.jpg.webp);
+    height: 650px;
+    width: 650px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-top: -50px;
+    margin-right: 10px;
+    transition: 1.7s;
+
+}
+
+.battery:hover {
+    transform: scale(1.07);
+}
+
+.batt h1{
+    margin-top: -470px;
+    margin-left: 900px;
+    color: burlywood;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+/*.zeiss {
+    background-image: url(https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/activity/1702897544170/zip/img/webp/section2b-pic1.jpg.webp);
+    height: 550px;
+    width: 550px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 920px;
+    margin-top: -550px;
+    transition: 1.7s;
+}
+
+.zeiss:hover {
+    transform: scale(1.07);
+}
+
+/*.book{
+    background-repeat: no-repeat;
+    background-color: burlywood;
+    background-size: contain;
+    margin-left: 20px;
+    margin-top: -90px;
+    border-radius: 200px;
+}
+
+.book p{
+    
+}*/
+
+.sh {
+    background-color: black;
+    margin-top: -20px;
+}
+
+.shop {
+    background-image: url(https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1678701363767/496b1d43c24d2c9192a2ee7e8dd76899.jpg);
+    height: 600px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 200px;
+    margin-top: 200px;
+    background-color: black;
+}
+
+.disclaimer {
+    background-color: black;
+    margin-top: 100px;
+    
+}
+
+.write {
+    color: white;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.know {
+    background-color: black;
+
+
+}
+
+.signup {
+    border: 2px solid black;
+    background-color: white;
+    background-size: cover;
+    width: 700px;
+    margin-left: 400px;
+    border-radius: 40px;
+}
+
+.signup h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.name {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 3px;
+    height: 30px;
+    width: 500px;
+
+}
+
+.phone {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    margin-top: -50px;
+    height: 30px;
+    width: 500px;
+}
+
+.gender {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-right: px;
+    height: 30px;
+    width: 500px;
+}
+
+.email {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    height: 30px;
+    width: 500px;
+}
+
+.city {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    height: 30px;
+    width: 500px;
+}
+
+.submit {
+    border: 2px solid skyblue;
+    border-radius: 15px;
+    background-color: skyblue;
+    margin-top: -20px;
+    height: 40px;
+    width: 130px;
+    font-weight: bolder;
+    font-size: large;
+
+}
